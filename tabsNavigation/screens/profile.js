@@ -1,7 +1,7 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Button} from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
-export default function Profile() {
+export default function Profile({navigation}) {
   return (
     <View style={styles.container}>
       <View style={styles.iconRow}>

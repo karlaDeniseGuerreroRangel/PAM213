@@ -1,15 +1,13 @@
-// screens/detalle.js
-
 import React from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 
-export default function Detalle({ navigation }) {
+export default function detalle({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Detalles Usuario</Text>
       <Text style={styles.subtitle}>Usando Navegación Stack</Text>
       
-      {/* Botón para regresar a la pantalla anterior del Stack (Profile) */}
+      
       <Button 
         title="Regresar a Perfil"
         onPress={() => navigation.goBack()}
