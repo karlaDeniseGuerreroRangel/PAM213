@@ -7,10 +7,14 @@ export default function Profile() {
       <View style={styles.iconRow}>
         <Ionicons name="person-outline" size={28} color="green" />
         <Text style={styles.title}>Perfil de usuario</Text>
+
+        <Button title="Detalles de usuario" onPress={() => navigation.navigate('Detalle')} color="#007BFF"/>
+        
       </View>
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
